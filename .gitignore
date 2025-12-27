@@ -1,0 +1,22 @@
+# python trash
+__pycache__/
+*.pyc
+
+#  jupyter trash
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# don't update large data
+data/VOCdevkit/
+data/*.zip
+data/*.tar
+
+# git limits, don't push weights
+weights/*.pth
+weights/*.pt
+*.weights
+
+# system files
+.DS_Store
+.env
+.venv
