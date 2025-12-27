@@ -2,6 +2,8 @@
 
 A Python implementation of the Single Shot MultiBox Detector (SSD) built from scratch. This project demonstrates the core concepts of computer vision, including anchor boxes, loss functions, and dataset handling using Pascal VOC.
 
+![Demo Result](assets/images/demo.png)
+
 # 📂 Project Structure
 
 ```text
@@ -46,3 +48,4 @@ pip install -r requirements.txt
 # Training
 To train model, run training.ipynb file
    
+
