@@ -20,10 +20,10 @@ A Python implementation of the Single Shot MultiBox Detector (SSD) built from sc
 │   ├── match_loss.ipynb # matching prior boxes with ground truth boxes
 │   ├── training.ipynb # Run this file for training
 └── 📁src            # Source code
-│   ├── loss_fn.py   # SSD Network Architecture
-│   ├── model.py     # MultiBox Loss implementation
-│   ├── prior_box.py # Encoder/Decoder utilities
-│   ├── utils.py     # Trained model weights
+│   ├── loss_fn.py   # MultiBox Loss implementation
+│   ├── model.py     # SSD Network Architecture
+│   ├── prior_box.py # Prior box generator
+│   ├── utils.py     # jaccard scores
 ```
 # Installation
 
@@ -48,4 +48,5 @@ pip install -r requirements.txt
 # Training
 To train model, run training.ipynb file
    
+
 
