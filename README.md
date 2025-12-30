@@ -31,7 +31,7 @@ To run this project, clone the repo and install dependencies:
 
 ```bash
 git clone https://github.com/phuocnguyn203-wq/implement-SSD-from-scratch
-cd object-detection-scratch
+cd implement-SSD-from-scratch
 pip install -r requirements.txt
 ```
 # Data setup
@@ -48,5 +48,6 @@ pip install -r requirements.txt
 # Training
 To train model, run training.ipynb file
    
+
 
 
